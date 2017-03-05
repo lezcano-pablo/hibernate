@@ -79,8 +79,8 @@ public class startNewGame extends View {
     
 
     private void startHardGame() {
-      System.out.println("\n*** startHardGame() function called***"); 
-    }
+ StartHardGameView StartHardGameView = new StartHardGameView();
+       StartHardGameView.display();    }
 
   
 }
