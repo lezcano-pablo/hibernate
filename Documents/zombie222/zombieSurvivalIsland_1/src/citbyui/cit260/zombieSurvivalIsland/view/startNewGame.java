@@ -73,7 +73,8 @@ public class startNewGame extends View {
     
 
     private void startNormalGame() {
-                System.out.println("\n*** startNormalGame() function called***"); 
+               StartNormalGameView StartNormalGameView = new StartNormalGameView();
+       StartNormalGameView.display();
 }
     
 
